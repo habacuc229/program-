@@ -1,0 +1,2 @@
+# program-
+$fileName = "My file i want to install.exe" ; the filename to install (amend accordingly) $switch = "/S" ; the switch, there maybe multiple switches for different things check the manufacturers website (amend accordingly) RunWait('"' &amp; $scriptDir &amp; "\" &amp; $fileName &amp; '"' &amp; " " &amp; $switch)  $sString_1 &amp; $sString_2  Run('calc.exe') ; Starting the program Beep(500, 1000) ; Plays back a beep Shutdown(32) ; Standby
